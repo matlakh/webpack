@@ -1,0 +1,50 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "description": "Webpack Simple",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --mode development",
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "start": "cross-env NODE_ENV=development webpack serve --mode development"
+  },
+  "author": "Sasha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^4.5.2",
+    "image-minimizer-webpack-plugin": "^2.2.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^8.0.0",
+    "less": "^4.1.0",
+    "less-loader": "^7.2.1",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-sass": "^5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "html-loader": "^2.1.2",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "image-webpack-loader": "^7.0.1",
+    "imagemin-webpack": "^5.1.1",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1",
+    "url-loader": "^4.1.1"
+  }
+}
